@@ -7,7 +7,11 @@
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "softinput-unspecified": "node scripts/stateUnspecified.js",
+    "softinput-resize": "node scripts/adjustResize.js",
+    "android-sources": "node scripts/setupBuildFromSources.js",
+    "android-patch": "node scripts/androidPatch.js"
   },
   "dependencies": {
     "react": "18.2.0",
